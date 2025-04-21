@@ -24,8 +24,12 @@ function mostrarPropiedades(lista, containerID, cantidad = lista.length) {
                         <i class="fas fa-bath"></i> ${propiedad.bannios} Baños
                     </p>
                     <p><i class="fas fa-dollar-sign"></i> ${formatCLP(propiedad.costo)}</p>
-                    ${propiedad.smoke ? '<p class="text-success"><i class="fas fa-smoking"></i> Permitido fumar</p>' : '<p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar</p>'}
-                    ${propiedad.pets ? '<p class="text-success"><i class="fas fa-paw"></i> Mascotas permitidas</p>' : '<p class="text-danger"><i class="fa-solid fa-ban"></i> No se permiten mascotas</p>'}
+                    ${propiedad.smoke ? 
+                        '<p class="text-success"><i class="fas fa-smoking"></i> Permitido fumar</p>' 
+                        : '<p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar</p>'}
+                    ${propiedad.pets ? 
+                        '<p class="text-success"><i class="fas fa-paw"></i> Mascotas permitidas</p>' 
+                        : '<p class="text-danger"><i class="fa-solid fa-ban"></i> No se permiten mascotas</p>'}
                 </div>
             </div>
         </div>
