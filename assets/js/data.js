@@ -1,3 +1,4 @@
+// Lista de propiedades en venta
 const propiedadesVenta = [
     {
         nombre: 'Apartamento de lujo en zona exclusiva',
@@ -56,7 +57,7 @@ const propiedadesVenta = [
     }
 ]
 
-
+// Lista de propiedades en alquiler
 const propiedadesAlquiler = [
     {
         nombre: 'Apartamento en el centro de la ciudad',

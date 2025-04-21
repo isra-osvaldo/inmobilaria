@@ -1,5 +1,7 @@
+// Función para dar formato al precio
 const formatCLP = n => new Intl.NumberFormat('es-CL').format(n);
 
+// Función para renderizar las propiedades 
 function mostrarPropiedades(lista, containerID, cantidad = lista.length) {
     let contador = 0
     let render = ''
@@ -34,5 +36,6 @@ function mostrarPropiedades(lista, containerID, cantidad = lista.length) {
     $sectionVenta.innerHTML = render
 }
 
+// Mostrar las propiedades en venta y alquiler en la página principal
 mostrarPropiedades(propiedadesVenta, '#propiedades-venta', 3)
 mostrarPropiedades(propiedadesAlquiler, '#propiedades-alquiler', 3)
