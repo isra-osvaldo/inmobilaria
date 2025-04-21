@@ -1,0 +1,1 @@
+mostrarPropiedades(propiedadesVenta, '#propiedades-venta')

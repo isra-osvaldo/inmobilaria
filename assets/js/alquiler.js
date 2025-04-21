@@ -1,0 +1,1 @@
+mostrarPropiedades(propiedadesAlquiler, '#propiedades-alquiler')
