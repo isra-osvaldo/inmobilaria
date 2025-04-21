@@ -45,7 +45,7 @@ const propiedadesVenta = [
     },
     {
         nombre: 'Moderno loft con vista al mar',
-        src: 'assets/img/propiedades/propiedad-5.jpg',
+        src: 'assets/img/propiedades/propiedad-5.jpg', 
         descripcion: 'Este moderno loft ofrece una espectacular vista al océano y acabados de alta gama.',
         ubicacion: '789 Ocean Drive, Sunset Beach, FL 33139',
         habitaciones: 2,
